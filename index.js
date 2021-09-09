@@ -3,4 +3,4 @@ var connect = require('connect');
 
  connect()
      .use(serveStatic(__dirname))
-     .listen(3001, () => console.log('Server running on 3000...'));
+     .listen(3001, () => console.log('Server running on 3001...'));
